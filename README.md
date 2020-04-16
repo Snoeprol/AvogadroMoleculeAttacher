@@ -5,6 +5,7 @@ This project is used to attach molecules to crystals, using avogadro .xyz files.
 -------------REQUIRMENTS---------------------------
 
 To run this project, one needs python3 and the module numpy.
+
 ------------HOW TO RUN-----------------------------
 
 1. Design your crystal and molecule in avogadro and put attachment sites on both the crystal and molecule.
