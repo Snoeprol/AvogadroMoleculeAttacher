@@ -1,2 +1,5 @@
-.vscode
+.vscode/*
 __pycache__
+molecules.code-workspace
+tests/test.py
+src/__pycache__
