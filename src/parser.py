@@ -1,8 +1,7 @@
 from os import path
 import numpy as np
 import glob
-#from . import mathhelper as mh
-import mathhelper as mh
+from . import mathhelper as mh
 import copy
 
 class Atom:
