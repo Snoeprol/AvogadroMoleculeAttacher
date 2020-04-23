@@ -25,7 +25,7 @@ $python -m src.GUI
 1. Design your crystal in avogadro and add hydrogen on top of the crystal
 2. In the MoleculeAttacher folder navigate to the input folder and put in your molecule in the molecule folder
 and the crystal in the crystal folder.
-3. 3. In your command prompt, move to the molcule attacher folder:
+3. In your command prompt, move to the molcule attacher folder:
 $cd MoleculeAttacher
 4. Run the spread.py file by typing:
 $python -m src.spread
