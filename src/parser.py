@@ -129,7 +129,7 @@ class Interpreter:
         else:
             self.atoms = atoms
             self.attachment_atoms = self._find_crystal_ligand_positions(self.atoms, attachment_atom_name)
-            self.center = self._find_crystal_center(self.atoms, crystal_atom)
+            self.center = self.find_crystal_center(self.atoms, crystal_atom)
             self.normal_vectors = self._find_crystal_normalized_normal_vectors(self.attachment_atoms, self.center)
             self._replace_crystal_attachment_atom(self.atoms, attachment_atom_name, replacement_atom)
 
@@ -144,7 +144,7 @@ class Interpreter:
                 ligand_atoms.append(atom)
         return ligand_atoms
 
-    def _find_crystal_center(self,content,crystal_atom):
+    def find_crystal_center(self,content,crystal_atom):
         """Finds the center of the crystal"""
         x_sum = 0
         y_sum = 0
