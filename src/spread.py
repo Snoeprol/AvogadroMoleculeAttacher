@@ -55,7 +55,7 @@ def main(attachment_atom_molecule = 'P', crystal_atom = 'Si',replacement_atom = 
     homogeneous_vectors = homogeneous_sphere(hydrogens,percentage,center_vector)
     find_closest_atoms(homogeneous_vectors, hydrogens)
     parser1.combined = atoms
-    parser1.write(path.join('output','output.xyz'))
+    parser1.write(path.join('output','crystal','output.xyz'))
 
     # Combine the crystal with the ligand
     attachment_atom_crystal = 'R'
