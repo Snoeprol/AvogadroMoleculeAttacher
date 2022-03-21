@@ -1,12 +1,12 @@
--------------PURPOSE OF CODE-----------------------
+# PURPOSE OF CODE
 
 This project is used to attach molecules to crystals, using avogadro .xyz files.
 
--------------REQUIRMENTS---------------------------
+# REQUIRMENTS
 
 To run this project, one needs python3 and the module numpy.
 
-------------HOW TO RUN-----------------------------
+# HOW TO RUN
 
 # To replace a set amount of atoms
 1. Design your crystal and molecule in avogadro and put attachment sites on both the crystal and molecule.
