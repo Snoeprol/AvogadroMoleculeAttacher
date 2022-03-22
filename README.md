@@ -31,3 +31,4 @@ $cd MoleculeAttacher
 $python -m src.spread
 5. Fill in the interface. Don't use quotation marks.
 6. Press generate. The file is in the output folder.
+7. Enjoy.
